@@ -18,9 +18,9 @@ public class H2testApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        TrainingUnit unit1 = new TrainingUnit("12-01-2022", 90, "biceps, shoulder", 80);
-        TrainingUnit unit2 = new TrainingUnit("12-01-2022", 90, "biceps, shoulder", 80);
-        TrainingUnit unit3 = new TrainingUnit("12-01-2022", 90, "biceps, shoulder", 80);
+        TrainingUnit unit1 = new TrainingUnit("2022-01-12", 7, "benchpress", 80);
+        TrainingUnit unit2 = new TrainingUnit("2022-01-12", 8, "squats", 100);
+        TrainingUnit unit3 = new TrainingUnit("2022-01-13", 13, "curls", 25);
 
         trainingUnitRepository.save(unit1);
         trainingUnitRepository.save(unit2);
